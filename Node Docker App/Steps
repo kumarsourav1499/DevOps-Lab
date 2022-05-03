@@ -1,0 +1,12 @@
+Create a folder called node-docker-app
+Open cmd then type the command : cd node-docker-app
+Once u went into the node-docker-app directory, type the command : npm init
+Then npm install --save express
+After installation is done, open package.json and app.js file
+In the app.js file, write the code
+Save the file and then run the command : node app.js
+Next, visit the site https://hub.docker.com/ and click on Explore. Type node in : search for great content
+Click on node(Docker official image) and further right click on How To Use This Image
+Open dockerfile file and write the necessary commands
+Once u have finished writing your commands, save it and then run : docker build -t hello docker .
+Now run the final command : docker run -it -p 8888:3000 hello-docker
